@@ -1,0 +1,17 @@
+<ion-view view-title="Profile">
+    <ion-content>
+        <ion-list>
+            <h3 class="item">
+                Name: {{name}}
+            </h3>
+
+            <button ng-click="takeProfilePicture();" class="button button-block button-positive">
+                Take Profile Picture
+            </button>
+
+            <div class="item">
+                <img id="profilePicture" src="https://placeholdit.imgix.net/~text?txtsize=28&txt=Please%20update%20your%20picture&w=300&h=300">
+            </div>
+        </ion-list>
+    </ion-content>
+</ion-view>
